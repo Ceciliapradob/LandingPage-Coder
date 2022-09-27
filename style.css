@@ -197,7 +197,7 @@ body{
     width: 100%;
     max-width: 1000px;
     margin: auto;
-    padding: 60px;
+    padding: 70px;
    
 }
 
@@ -235,6 +235,7 @@ transition: all 2s;
 .about{
     background: linear-gradient(rgb(255, 123, 0), rgb(0, 140, 255));
     margin-top: 3%;
+    box-shadow: 7px 13px 37px cadetblue;
 }
 
 .about .nosotros-btn{
@@ -273,6 +274,7 @@ transition: all 2s;
     padding: 60px;
     background: linear-gradient(rgb(0, 140, 255), rgb(255, 123, 0));
     margin-top: 5%;
+    box-shadow: 7px 13px 37px cadetblue;
 
 }
 
@@ -368,3 +370,128 @@ margin-left: 9%;
     text-align: center;
     margin-bottom: 3%;
 }
+
+/*SECCION FOOTER*/ 
+.pie-de-pagina{
+    width: 100%;
+    background-color: black;
+    margin-top: 25px;
+}
+
+.pie-de-pagina .grupo1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:50px;
+    padding: 45px 0;
+ 
+}
+
+.pie-de-pagina .grupo1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pie-de-pagina .grupo1 .box figure img{
+    width: 250px;
+}
+
+.pie-de-pagina .grupo1 .box h2{
+    color: white;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+.pie-de-pagina .grupo1 .box p{
+    color: #efefef;
+    margin-bottom: 10px;
+}
+
+.pie-de-pagina .grupo1 .red-social a{
+      display: inline-block;
+      text-decoration: none;
+      width: 45px;
+      height: 45px;
+      line-height: 45px;
+      color: white;
+      margin-right: 10px;
+      background-color: orangered; 
+      text-align: center;
+      transition: all 300ms ease;
+}
+
+.pie-de-pagina .grupo1 .red-social a:hover{
+    color: aqua;
+}
+
+.pie-de-pagina .grupo2{
+ padding: 5px 5px;
+ text-align: center;
+ color: white;
+}
+
+.pie-de-pagina .grupo2 small{
+    font-size: 15px;
+}
+
+@media screen and (max-width:800px) {
+    .pie-de-pagina .grupo1{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap:30px;
+        padding: 35px 0;
+     
+    }
+    
+}
+
+/*CLIENTES*/
+
+#client{
+    width: 100%px;
+    max-width: 1000px;
+    background: linear-gradient(rgb(0, 140, 255), rgb(255, 123, 0));
+    padding: 30px;
+    border-radius: 4px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 35%;
+     box-shadow: 7px 13px 37px cadetblue;
+     margin-bottom: 5%;
+     margin: auto;
+    margin-top: 5%;
+}
+.clientes{
+    text-align: center;
+    font-size: 30px;
+}
+
+.logo-pinup{
+    width: 300px;
+    display: inline;
+}
+.titulo-pinup{
+    margin-left: 2%;
+    display: inline-block;
+    position: absolute;
+    margin-top: 6%;
+    
+    
+}
+
+.descripcion-pinup{
+    margin-left: 2%;
+    display: inline;
+    position: absolute;
+    margin-top: 8%;
+
+}
+
+.texto-elerginos{
+    text-align: center;
+}
+
